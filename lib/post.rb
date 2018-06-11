@@ -12,14 +12,11 @@ class Post
     @@all
   end
 
-  def author
-    @author
-  end
+
 
   def author_name
     @author == nil ? nil : self.author.name
   end
-
 
 
 end
